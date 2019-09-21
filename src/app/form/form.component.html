@@ -1,0 +1,16 @@
+<p>form works!</p>
+
+<section>
+  <a class="button cancel" routerLink="../child">
+    Cancel
+  </a>
+  <a class="button" routerLink="../../home">
+    Go Home
+  </a>
+  <button class="submit" (click)="submit('child')">
+    Submit (Child)
+  </button>
+  <button class="submit" (click)="submit('lazy')">
+    Submit (Lazy)
+  </button>
+</section>
